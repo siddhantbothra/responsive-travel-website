@@ -302,6 +302,24 @@ input {
   object-fit: cover;
   object-position: 83%;
 }
+/* .home_img1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 83%;
+}
+.home_img2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 83%;
+} */
 
 .home__container {
   position: relative;
@@ -381,6 +399,7 @@ input {
   display: inline-block;
   background-color: var(--first-color);
   color: var(--white-color);
+  margin: 5px;
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
   transition: .3s;

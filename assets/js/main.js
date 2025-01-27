@@ -129,6 +129,14 @@ sr.reveal(`.home__data, .home__social-link, .home__info,
     origin: 'top',
     interval: 100,
 })
+sr.reveal(`.home_img1`,{
+    origin: 'left',
+    interval: 200,
+})
+sr.reveal(`home_img2`,{
+    origin: 'top',
+    interval: 100,
+})
 
 sr.reveal(`.about__data, 
            .video__description,
