@@ -210,6 +210,11 @@ input {
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
+  
+}
+.tour{
+  flex: auto;
+  justify-content: center;
 }
 
 .nav__toggle {
@@ -219,6 +224,9 @@ input {
 
 .nav__menu {
   position: relative;
+}
+.logo{
+  width:50px;
 }
 
 @media screen and (max-width: 767px) {
